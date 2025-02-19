@@ -2,7 +2,7 @@
 	"editor.formatOnPaste": true,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"*.cpp": "${capture}.exe, ${capture}, ${capture}.inp, ${capture}.out, ${capture}.inpx, ${capture}.outx",
+		"*.cpp": "${capture}.exe, ${capture}, ${capture}.inp, ${capture}.out, ${capture}.inpx, ${capture}.outx, ${capture}.INP, ${capture}.OUT, ${capture}.INPX, ${capture}.OUTX",
 	},
 	"editor.detectIndentation": false,
 	"C_Cpp.intelliSenseCacheSize": 128,
@@ -12,5 +12,8 @@
 		"editor.defaultFormatter": "charliermarsh.ruff",
 		"editor.formatOnSave": true,
 	},
-	"python.terminal.activateEnvironment": false
+	"python.terminal.activateEnvironment": false,
+	"files.associations": {
+		"ostream": "cpp"
+	}
 }
