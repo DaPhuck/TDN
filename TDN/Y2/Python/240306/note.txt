@@ -1,8 +1,0 @@
-sth = 1 5 8 9
-dem duong = 8
-tim max = 8
-
-tkt =
-
-ds = 0
-gannhat = 0
